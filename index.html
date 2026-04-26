@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | DIHT</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/diht.png">
+    <link rel="apple-touch-icon" href="img/diht.png">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loader-wrapper" id="loaderWrapper">
+        <div class="loader-content">
+            <div class="loader-logo-container">
+                <img src="img/diht.png" alt="DIHT Logo" class="loader-logo">
+                <div class="loader-ring"></div>
+                <div class="loader-ring-2"></div>
+                <div class="loader-ring-3"></div>
+            </div>
+            <div class="loader-text">
+                <span class="loader-title">DIHT</span>
+                <span class="loader-subtitle">Digital Innovation Hub Timor</span>
+            </div>
+            <div class="loader-progress">
+                <div class="loader-progress-bar" id="loaderProgressBar"></div>
+            </div>
+            <div class="loader-dots">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Particle Background -->
+    <div class="particles-background" id="particlesBackground"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="img/diht.png" alt="DIHT Logo" class="logo-img">
+                <span class="logo-text">DIHT</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#vision" class="nav-link">Vision & Mission</a></li>
+                <li class="nav-item"><a href="#programs" class="nav-link">Programs</a></li>
+                <li class="nav-item"><a href="#team" class="nav-link">Team</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge" data-aos="fade-down" data-aos-duration="1000">
+                <img src="img/diht.png" alt="DIHT" class="badge-logo">
+                <span>Timor-Leste</span>
+            </div>
+            <h1 class="hero-title" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                <span class="title-line">Digital Innovation</span>
+                <span class="title-line">Hub Timor</span>
+            </h1>
+            <h2 class="hero-subtitle" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                <span class="subtitle-bracket">(</span> DIHT <span class="subtitle-bracket">)</span>
+            </h2>
+            <p class="hero-tagline" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                <span class="tagline-icon"><i class="fas fa-star"></i></span>
+                Inspire, Learn, Lead
+                <span class="tagline-icon"><i class="fas fa-star"></i></span>
+            </p>
+            <div class="hero-cta" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
+                <a href="#contact" class="cta-button primary">
+                    <i class="fas fa-rocket"></i> Join Us
+                </a>
+                <a href="#about" class="cta-button secondary">
+                    <i class="fas fa-compass"></i> Explore
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-gradient">About Us</span>
+            </h2>
+            <div class="underline" data-aos="fade-up" data-aos-delay="100"></div>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-up" data-aos-delay="200">
+                    <p>Digital Innovation Hub Timor (DIHT) is a platform empowering Timor-Leste youth to innovate, collaborate, and create sustainable digital solutions.</p>
+                    <p>We believe in the power of technology to transform communities and create lasting impact. Through our programs and initiatives, we're building a vibrant ecosystem where young innovators can thrive.</p>
+                </div>
+                <div class="about-icons">
+                    <div class="icon-card" data-aos="flip-left" data-aos-delay="300">
+                        <div class="icon-circle">
+                            <i class="fas fa-microchip"></i>
+                        </div>
+                        <h3>Innovation</h3>
+                        <p>Building cutting-edge solutions for tomorrow's challenges</p>
+                    </div>
+                    <div class="icon-card" data-aos="flip-left" data-aos-delay="500">
+                        <div class="icon-circle">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>Creativity</h3>
+                        <p>Fostering bright ideas and innovative thinking</p>
+                    </div>
+                    <div class="icon-card" data-aos="flip-left" data-aos-delay="700">
+                        <div class="icon-circle">
+                            <i class="fas fa-earth-asia"></i>
+                        </div>
+                        <h3>Global Reach</h3>
+                        <p>Connecting Timor-Leste with the world</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision & Mission Section -->
+    <section id="vision" class="vision section-padding bg-alt">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-gradient">Vision & Mission</span>
+            </h2>
+            <div class="underline" data-aos="fade-up" data-aos-delay="100"></div>
+            <div class="vision-content">
+                <div class="vision-box" data-aos="fade-right" data-aos-delay="200">
+                    <div class="box-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Our Vision</h3>
+                    <p>To be the leading digital innovation hub in Timor-Leste, empowering youth to create impactful solutions.</p>
+                </div>
+                <div class="mission-box" data-aos="fade-left" data-aos-delay="400">
+                    <div class="box-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3>Our Mission</h3>
+                    <ul class="mission-list">
+                        <li><i class="fas fa-graduation-cap"></i> Empower youth through digital learning and innovation.</li>
+                        <li><i class="fas fa-users"></i> Create collaborative spaces for students, professionals, and communities.</li>
+                        <li><i class="fas fa-hand-holding-heart"></i> Promote projects with social, educational, and environmental impact.</li>
+                        <li><i class="fas fa-network-wired"></i> Connect Timor-Leste with global innovation networks.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs" class="programs section-padding">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-gradient">Our Programs</span>
+            </h2>
+            <div class="underline" data-aos="fade-up" data-aos-delay="100"></div>
+            <div class="programs-grid">
+                <div class="program-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="card-icon-wrapper">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Workshops & Training</h3>
+                    <p>Hands-on learning experiences in coding, design thinking, and digital skills development for all levels.</p>
+                    <a href="#" class="card-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="program-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="card-icon-wrapper">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Hackathons & Competitions</h3>
+                    <p>Exciting challenges that push boundaries and inspire innovative problem-solving among youth.</p>
+                    <a href="#" class="card-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="program-card" data-aos="zoom-in" data-aos-delay="600">
+                    <div class="card-icon-wrapper">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Community Projects</h3>
+                    <p>Collaborative initiatives that address real-world challenges and create lasting impact in Timor-Leste.</p>
+                    <a href="#" class="card-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="program-card" data-aos="zoom-in" data-aos-delay="800">
+                    <div class="card-icon-wrapper">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Global Partnerships</h3>
+                    <p>International connections that bring global opportunities and expertise to local innovators.</p>
+                    <a href="#" class="card-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team section-padding bg-alt">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-gradient">Meet Our Team</span>
+            </h2>
+            <div class="underline" data-aos="fade-up" data-aos-delay="100"></div>
+            <div class="team-grid">
+                <div class="team-card" data-aos="flip-up" data-aos-delay="200">
+                    <div class="team-image">
+                        <img src="img/team/qtwo.png" alt="Director General" onerror="this.parentElement.innerHTML='<div class=\'team-placeholder\'><i class=\'fas fa-user-tie\'></i><span>DG</span></div>'">
+                    </div>
+                    <div class="team-info">
+                        <h3>Lucas G. do Nascimento</h3>
+                        <p class="position">Director General</p>
+                        <div class="team-social">
+                            <a href="https://web.facebook.com/QtwoCase"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-card" data-aos="flip-up" data-aos-delay="400">
+                    <div class="team-image">
+                        <img src="img/team/qtwo.png" alt="Program Coordinator" onerror="this.parentElement.innerHTML='<div class=\'team-placeholder\'><i class=\'fas fa-user-cog\'></i><span>PC</span></div>'">
+                    </div>
+                    <div class="team-info">
+                        <h3>Francisco Dev</h3>
+                        <p class="position">Program Coordinator</p>
+                        <div class="team-social">
+                            <a href="https://web.facebook.com/QtwoCase"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-card" data-aos="flip-up" data-aos-delay="600">
+                    <div class="team-image">
+                        <img src="img/team/qtwo.png" alt="Administrative Secretary" onerror="this.parentElement.innerHTML='<div class=\'team-placeholder\'><i class=\'fas fa-user-tie\'></i><span>AS</span></div>'">
+                    </div>
+                    <div class="team-info">
+                        <h3>QTwo Malack</h3>
+                        <p class="position">Administrative Secretary</p>
+                        <div class="team-social">
+                            <a href="https://web.facebook.com/QtwoCase"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-card" data-aos="flip-up" data-aos-delay="800">
+                    <div class="team-image">
+                        <img src="img/team/qtwo.png" alt="Youth & Innovation Department" onerror="this.parentElement.innerHTML='<div class=\'team-placeholder\'><i class=\'fas fa-user-graduate\'></i><span>YI</span></div>'">
+                    </div>
+                    <div class="team-info">
+                        <h3>KiTu Doutel</h3>
+                        <p class="position">Youth & Innovation Department</p>
+                        <div class="team-social">
+                            <a href="https://web.facebook.com/QtwoCase"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-gradient">Contact Us</span>
+            </h2>
+            <div class="underline" data-aos="fade-up" data-aos-delay="100"></div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right" data-aos-delay="200">
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:info@diht.tl">info@diht.tl</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Dili, Timor-Leste</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div>
+                            <h4>Website</h4>
+                            <p><a href="https://francisco-kitu.vercel.app" target="_blank">www.diht.tl</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+670 78280480</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form" data-aos="fade-left" data-aos-delay="400">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">
+                                <i class="fas fa-user"></i> Name *
+                            </label>
+                            <input type="text" id="name" name="name" required placeholder="Your full name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">
+                                <i class="fas fa-envelope"></i> Email *
+                            </label>
+                            <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">
+                                <i class="fas fa-tag"></i> Subject
+                            </label>
+                            <input type="text" id="subject" name="subject" placeholder="What is this about?">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">
+                                <i class="fas fa-comment"></i> Message *
+                            </label>
+                            <textarea id="message" name="message" required placeholder="Your message..." rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                    <div id="formMessage" class="form-message" style="display:none;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <img src="img/diht.png" alt="DIHT Logo">
+                        <h3>Digital Innovation Hub Timor</h3>
+                    </div>
+                    <p>Inspire, Learn, Lead - Building Tomorrow's Innovators Today</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home"><i class="fas fa-angle-right"></i> Home</a></li>
+                        <li><a href="#about"><i class="fas fa-angle-right"></i> About</a></li>
+                        <li><a href="#programs"><i class="fas fa-angle-right"></i> Programs</a></li>
+                        <li><a href="#contact"><i class="fas fa-angle-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+                <div class="social-links">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="https://web.facebook.com/QtwoCase" class="social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/kitu_doutel.24" class="social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Digital Innovation Hub Timor (DIHT). All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
